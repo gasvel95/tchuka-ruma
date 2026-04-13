@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kebijakan Privasi – Tchuka Ruma</title>
+  <style>
+    :root {
+      --bg:      #1a1208;
+      --surface: #2a1e0e;
+      --gold:    #c8943a;
+      --cream:   #f0e6c8;
+      --muted:   #9e8c6a;
+      --radius:  10px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--cream);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 16px;
+      line-height: 1.75;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .container {
+      max-width: 740px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--gold);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: var(--gold);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 0.4rem;
+    }
+
+    .lang-switch {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .lang-switch button {
+      background: var(--surface);
+      color: var(--cream);
+      border: 1px solid var(--gold);
+      border-radius: var(--radius);
+      padding: 0.35rem 1.1rem;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .lang-switch button.active,
+    .lang-switch button:hover {
+      background: var(--gold);
+      color: var(--bg);
+    }
+
+    .lang-content { display: none; }
+    .lang-content.visible { display: block; }
+
+    section {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h2 {
+      color: var(--gold);
+      font-size: 1.05rem;
+      margin-bottom: 0.75rem;
+      letter-spacing: 0.5px;
+    }
+
+    p { margin-bottom: 0.75rem; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      padding-left: 1.4rem;
+      margin-bottom: 0.75rem;
+    }
+
+    ul li { margin-bottom: 0.4rem; }
+
+    a { color: var(--gold); text-decoration: underline; }
+
+    .badge {
+      display: inline-block;
+      background: var(--bg);
+      border: 1px solid var(--gold);
+      border-radius: 4px;
+      font-size: 0.78rem;
+      padding: 0.1rem 0.55rem;
+      color: var(--gold);
+      vertical-align: middle;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.8rem;
+      margin-top: 2.5rem;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Tchuka Ruma</h1>
+    <p>Kebijakan Privasi &nbsp;·&nbsp; Privacy Policy</p>
+  </header>
+
+  <div class="lang-switch">
+    <button class="active" onclick="setLang('id', this)">Bahasa Indonesia</button>
+    <button onclick="setLang('en', this)">English</button>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════ BAHASA INDONESIA -->
+  <div id="lang-id" class="lang-content visible">
+
+    <section>
+      <h2>1. Pengantar</h2>
+      <p>Tchuka Ruma adalah permainan papan solitaire tradisional Indonesia.
+        Kebijakan ini menjelaskan data apa yang dikumpulkan, oleh siapa, dan
+        bagaimana data tersebut digunakan. Kami berkomitmen untuk melindungi
+        privasi Anda.</p>
+      <p><strong>Berlaku sejak:</strong> 13 April 2026</p>
+    </section>
+
+    <section>
+      <h2>2. Data yang Dikumpulkan oleh Aplikasi Ini</h2>
+      <p>Tchuka Ruma <strong>tidak mengumpulkan, menyimpan, atau mengirimkan
+        data pribadi apa pun</strong> ke server kami. Semua data permainan
+        disimpan sepenuhnya di perangkat Anda:</p>
+      <ul>
+        <li><span class="badge">Lokal</span> Status papan permainan (tantangan harian &amp; permainan bebas)</li>
+        <li><span class="badge">Lokal</span> Jumlah nyawa dan tanggal pengisian ulang</li>
+        <li><span class="badge">Lokal</span> Preferensi suara (aktif/bisu)</li>
+      </ul>
+      <p>Data ini tidak pernah meninggalkan perangkat Anda.</p>
+    </section>
+
+    <section>
+      <h2>3. Iklan — Google AdMob <span class="badge">Pihak Ketiga</span></h2>
+      <p>Aplikasi ini menampilkan iklan melalui <strong>Google AdMob</strong>.
+        AdMob dapat mengumpulkan data berikut untuk menayangkan iklan yang
+        relevan:</p>
+      <ul>
+        <li>ID iklan perangkat (Advertising ID)</li>
+        <li>Alamat IP (perkiraan lokasi)</li>
+        <li>Informasi perangkat (model, versi OS)</li>
+        <li>Data interaksi dengan iklan</li>
+      </ul>
+      <p>Pengumpulan data ini diatur oleh kebijakan privasi Google, bukan oleh
+        kami. Anda dapat meninjau kebijakan tersebut di:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+          policies.google.com/privacy</a>.</p>
+      <p>Untuk menonaktifkan personalisasi iklan, buka <strong>Pengaturan
+        Android → Google → Iklan → Nonaktifkan personalisasi iklan</strong>.</p>
+    </section>
+
+    <section>
+      <h2>4. Izin Aplikasi</h2>
+      <ul>
+        <li><code>INTERNET</code> — diperlukan untuk memuat iklan AdMob</li>
+        <li><code>ACCESS_NETWORK_STATE</code> — diperlukan AdMob untuk memeriksa konektivitas sebelum memuat iklan</li>
+      </ul>
+      <p>Tidak ada izin lain yang diminta. Aplikasi ini tidak mengakses kamera,
+        mikrofon, kontak, atau lokasi Anda.</p>
+    </section>
+
+    <section>
+      <h2>5. Privasi Anak</h2>
+      <p>Aplikasi ini ditujukan untuk pengguna umum (semua umur) dan tidak
+        secara sengaja mengumpulkan data dari anak di bawah 13 tahun. Iklan
+        yang ditampilkan bersifat umum sesuai rating konten aplikasi.</p>
+    </section>
+
+    <section>
+      <h2>6. Perubahan Kebijakan</h2>
+      <p>Jika kebijakan ini diperbarui, versi terbaru akan tersedia di halaman
+        ini dengan tanggal berlaku yang diperbarui.</p>
+    </section>
+
+    <section>
+      <h2>7. Hubungi Kami</h2>
+      <p>Jika Anda memiliki pertanyaan mengenai kebijakan privasi ini, silakan
+        hubungi kami melalui halaman aplikasi di Google Play Store.</p>
+    </section>
+
+  </div><!-- /lang-id -->
+
+  <!-- ═══════════════════════════════════════════════════════════════ ENGLISH -->
+  <div id="lang-en" class="lang-content">
+
+    <section>
+      <h2>1. Introduction</h2>
+      <p>Tchuka Ruma is a traditional Indonesian solitaire board game.
+        This policy explains what data is collected, by whom, and how it is
+        used. We are committed to protecting your privacy.</p>
+      <p><strong>Effective date:</strong> April 13, 2026</p>
+    </section>
+
+    <section>
+      <h2>2. Data Collected by This App</h2>
+      <p>Tchuka Ruma does <strong>not collect, store, or transmit any personal
+        data</strong> to our servers. All game data is stored entirely on your
+        device:</p>
+      <ul>
+        <li><span class="badge">Local</span> Board state (daily challenge &amp; free play)</li>
+        <li><span class="badge">Local</span> Life count and daily refill date</li>
+        <li><span class="badge">Local</span> Sound preference (on/muted)</li>
+      </ul>
+      <p>This data never leaves your device.</p>
+    </section>
+
+    <section>
+      <h2>3. Advertising — Google AdMob <span class="badge">Third Party</span></h2>
+      <p>This app displays ads through <strong>Google AdMob</strong>. AdMob
+        may collect the following data to serve relevant ads:</p>
+      <ul>
+        <li>Device Advertising ID</li>
+        <li>IP address (approximate location)</li>
+        <li>Device information (model, OS version)</li>
+        <li>Ad interaction data</li>
+      </ul>
+      <p>This data collection is governed by Google's privacy policy, not ours.
+        You can review it at:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+          policies.google.com/privacy</a>.</p>
+      <p>To opt out of personalized ads, go to <strong>Android Settings →
+        Google → Ads → Opt out of Ads Personalization</strong>.</p>
+    </section>
+
+    <section>
+      <h2>4. App Permissions</h2>
+      <ul>
+        <li><code>INTERNET</code> — required to load AdMob ads</li>
+        <li><code>ACCESS_NETWORK_STATE</code> — required by AdMob to check connectivity before loading ads</li>
+      </ul>
+      <p>No other permissions are requested. The app does not access your
+        camera, microphone, contacts, or location.</p>
+    </section>
+
+    <section>
+      <h2>5. Children's Privacy</h2>
+      <p>This app is intended for a general audience and does not knowingly
+        collect data from children under 13. Ads displayed are appropriate for
+        the app's content rating.</p>
+    </section>
+
+    <section>
+      <h2>6. Policy Changes</h2>
+      <p>If this policy is updated, the latest version will be available on
+        this page with a revised effective date.</p>
+    </section>
+
+    <section>
+      <h2>7. Contact</h2>
+      <p>If you have any questions about this privacy policy, please contact us
+        through the app's page on the Google Play Store.</p>
+    </section>
+
+  </div><!-- /lang-en -->
+
+  <footer>
+    <p>Tchuka Ruma &copy; 2026 &nbsp;·&nbsp; com.oddloop.tchukaruma</p>
+  </footer>
+
+</div>
+
+<script>
+  function setLang(lang, btn) {
+    document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('visible'));
+    document.querySelectorAll('.lang-switch button').forEach(b => b.classList.remove('active'));
+    document.getElementById('lang-' + lang).classList.add('visible');
+    btn.classList.add('active');
+  }
+</script>
+</body>
+</html>
